@@ -2,7 +2,7 @@
   <div class="dis-cell" :style="{width:width, textAlign: 'left'}">
     <el-menu :default-active="active" class="el-menu-vertical-demo" :router="router" style='min-height:1000px'>
       <template v-for="menu in menus">
-          <el-menu-item :index="menu.path"><i :class="menu.icon"></i>{{menu.name}}</el-menu-item>
+          <el-menu-item :index="menu.path"><i :class="menu.icon"></i><span v-text="menu.name"></span></el-menu-item>
       </template>
     </el-menu>
   </div>

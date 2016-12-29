@@ -41,5 +41,5 @@ module.exports = {
       ]
     }
   },
-  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm install -g supervisor\n npm run server"
+  "completeMessage": "To get started:\n\n  npm install \n npm run dev"
 };

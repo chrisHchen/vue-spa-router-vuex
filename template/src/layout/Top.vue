@@ -2,7 +2,7 @@
 <div class='topmenu-wrap'>
   <div class='topmenu'>
     <ul class="fr topmenu-item">
-      <li>你好：{{username}}</li>
+      <li>你好：<span v-text='username'></span></li>
       <li @click='logout' class='logout'>登出</li>
     </ul>
   </div>
