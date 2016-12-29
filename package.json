@@ -1,0 +1,7 @@
+{
+  "name": "vue-spa-router-vuex",
+  "version": "1.0.0",
+  "license": "MIT",
+  "Keywords":["vue", "vue-router", "vuex"],
+  "description": "Vue spa setup with Webpack. Include vue-router vuex"
+}
